@@ -12,5 +12,10 @@ function sayHello(name = "World") {
 }
 // isFive function
 function isFive(num) {
-    return num === "5" || num === 5;
+    return num === "5" || num === 5
+}
+
+// isEven function
+function isEven(num) {
+    return num % 2 === 0
 }
