@@ -1,7 +1,7 @@
 // helloWorld function 
 const helloWorld = function() {
     return "Hello, World!";
-}
+};
 // sayHello function
 function sayHello(name = "World") {
     if (typeof name === "boolean") {
@@ -9,4 +9,8 @@ function sayHello(name = "World") {
     } else {
         return "Hello, " + name + "!";
     }
+}
+// isFive function
+function isFive(num) {
+    return num === "5" || num === 5;
 }
