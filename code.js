@@ -3,6 +3,10 @@ const helloWorld = function() {
     return "Hello, World!";
 }
 // sayHello function
-function sayHello(name) {
-    return "Hello, " + name + "!";
+function sayHello(name = "World") {
+    if (typeof name === "boolean") {
+        return "Hello, World!"
+    } else {
+        return "Hello, " + name + "!";
+    }
 }
