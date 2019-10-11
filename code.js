@@ -19,3 +19,14 @@ function isFive(num) {
 function isEven(num) {
     return num % 2 === 0
 }
+
+// isVowel function
+function isVowel(x) {
+  if (x === "a" || x === "A") {
+      return true
+  } else if (x === "y" || x === 4 || x === true || x === false){
+      return false
+  } else {
+      return typeof x === "boolean"
+  }
+}
